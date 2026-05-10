@@ -2639,7 +2639,7 @@
 	)
 	(text_box "Driver network"
 		(exclude_from_sim no)
-		(at 52.07 34.29 0)
+		(at 86.36 36.83 0)
 		(size 7.62 15.24)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -2698,10 +2698,10 @@
 		(uuid "c80d227f-c83d-4af1-9311-c39f89071274")
 	)
 	(junction
-		(at 30.48 54.61)
+		(at 36.83 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "04c64108-a889-467b-9dd4-f05afaa6764f")
+		(uuid "03abce9b-adbe-430f-9fda-1ed571d81029")
 	)
 	(junction
 		(at 39.37 99.06)
@@ -2710,16 +2710,22 @@
 		(uuid "05392969-2941-443d-b370-75eac4a9239e")
 	)
 	(junction
+		(at 73.66 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "077568f2-9957-4a91-b342-83ec1aa165d6")
+	)
+	(junction
 		(at 205.74 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "10518cff-ae2e-4a8f-b6e9-5a4716b03cea")
 	)
 	(junction
-		(at 73.66 41.91)
+		(at 39.37 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "28abd570-2a1a-480f-91dd-88a83421175f")
+		(uuid "14ff292c-b873-479b-9817-82d985054a5e")
 	)
 	(junction
 		(at 29.21 77.47)
@@ -2728,16 +2734,10 @@
 		(uuid "357ad64b-732d-4d34-b1f5-43f9c983bf7c")
 	)
 	(junction
-		(at 124.46 41.91)
+		(at 36.83 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "40830324-98bb-44f6-b118-b08f94ef49fd")
-	)
-	(junction
-		(at 30.48 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4438dd31-872a-43e3-84db-b26f793367f1")
+		(uuid "44f3a79c-6582-4196-b893-f42200a893a9")
 	)
 	(junction
 		(at 158.75 21.59)
@@ -2750,12 +2750,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "61cf290e-c7ac-44b9-ad62-0b1beb7fb344")
-	)
-	(junction
-		(at 48.26 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "63c81373-70a0-4733-af33-c1756ef74f5d")
 	)
 	(junction
 		(at 29.21 85.09)
@@ -2774,12 +2768,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7f905a89-8467-43ac-892a-b365cb161e0c")
-	)
-	(junction
-		(at 48.26 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "87440f8c-728e-40fb-a524-bfe430040720")
 	)
 	(junction
 		(at 158.75 29.21)
@@ -2818,16 +2806,22 @@
 		(uuid "ca14a945-011d-4074-aeb1-76b497c3789e")
 	)
 	(junction
+		(at 124.46 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de9647bb-2006-45d6-b4ee-5bda11c86669")
+	)
+	(junction
 		(at 44.45 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e59f8faf-ad6e-4d68-a0ce-4cca18eb410b")
 	)
 	(junction
-		(at 39.37 29.21)
+		(at 73.66 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f6b3f809-dc49-4648-b1b4-d48ccdfa757a")
+		(uuid "e7fdcdd3-2b79-441a-a1ee-4268ab9faf03")
 	)
 	(junction
 		(at 39.37 54.61)
@@ -2843,6 +2837,36 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 46.99) (xy 86.36 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07cd998a-e08d-4799-a534-7adf513974d3")
+	)
+	(wire
+		(pts
+			(xy 73.66 29.21) (xy 73.66 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1307a03f-c099-46a4-a297-c74ad9f61040")
+	)
+	(wire
+		(pts
+			(xy 36.83 45.72) (xy 36.83 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1450d77e-956b-4def-9164-a1e3c454ca0e")
+	)
+	(wire
+		(pts
 			(xy 29.21 109.22) (xy 29.21 110.49)
 		)
 		(stroke
@@ -2853,13 +2877,13 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 54.61) (xy 30.48 54.61)
+			(xy 101.6 41.91) (xy 101.6 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "16e037e7-23e2-47ea-abba-536cb108bc85")
+		(uuid "16d8a2ca-ab8a-4626-ae3f-cd2bb922952b")
 	)
 	(wire
 		(pts
@@ -2883,13 +2907,13 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 41.91) (xy 107.95 41.91)
+			(xy 93.98 41.91) (xy 101.6 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1fff6cac-f8d5-4871-ac8f-7eaf21d151e0")
+		(uuid "1e731587-d382-4b7d-8c89-b8756abf81d7")
 	)
 	(wire
 		(pts
@@ -2933,16 +2957,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 29.21) (xy 73.66 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2dfe472d-b399-45fa-89f6-8e931c27b069")
-	)
-	(wire
-		(pts
 			(xy 22.86 40.64) (xy 22.86 29.21)
 		)
 		(stroke
@@ -2983,6 +2997,26 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 41.91) (xy 73.66 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39e51fb9-5a8d-4ca1-86a5-fd664c04746e")
+	)
+	(wire
+		(pts
+			(xy 106.68 29.21) (xy 124.46 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43b32c35-3abb-418d-a073-f6b93fdd8d79")
+	)
+	(wire
+		(pts
 			(xy 36.83 111.76) (xy 36.83 110.49)
 		)
 		(stroke
@@ -2990,16 +3024,6 @@
 			(type default)
 		)
 		(uuid "49a3c8ef-2920-4e27-83a8-89e6b4c639f4")
-	)
-	(wire
-		(pts
-			(xy 48.26 29.21) (xy 54.61 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c697462-f7c0-45e8-b98d-830cd8d9f972")
 	)
 	(wire
 		(pts
@@ -3033,43 +3057,13 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 48.26) (xy 66.04 48.26)
+			(xy 124.46 29.21) (xy 128.27 29.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "532b1a0b-a95f-46c5-aa59-c58126ebd1be")
-	)
-	(wire
-		(pts
-			(xy 30.48 29.21) (xy 30.48 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53a86e6a-d174-4c17-aca4-413e7092a94b")
-	)
-	(wire
-		(pts
-			(xy 124.46 41.91) (xy 128.27 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5652f4ad-e352-4856-8e12-aa55f800adb3")
-	)
-	(wire
-		(pts
-			(xy 48.26 29.21) (xy 48.26 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e17ffeb-8db3-4362-871d-b19b4105c884")
+		(uuid "5be4a666-96b8-4440-ad53-6fc2cf67824f")
 	)
 	(wire
 		(pts
@@ -3083,23 +3077,13 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 52.07) (xy 124.46 54.61)
+			(xy 124.46 45.72) (xy 124.46 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "62393a60-0c06-4594-b4b6-3de1aec33b33")
-	)
-	(wire
-		(pts
-			(xy 73.66 30.48) (xy 73.66 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64cab45d-e2cc-49bd-8248-c2581094eebd")
 	)
 	(wire
 		(pts
@@ -3123,7 +3107,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 29.21) (xy 48.26 29.21)
+			(xy 39.37 29.21) (xy 54.61 29.21)
 		)
 		(stroke
 			(width 0)
@@ -3173,6 +3157,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 29.21) (xy 73.66 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "784eaa14-e3d8-42ed-a1d6-a29499d34c65")
+	)
+	(wire
+		(pts
 			(xy 34.29 128.27) (xy 34.29 127)
 		)
 		(stroke
@@ -3203,7 +3197,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 41.91) (xy 124.46 44.45)
+			(xy 124.46 29.21) (xy 124.46 38.1)
 		)
 		(stroke
 			(width 0)
@@ -3223,26 +3217,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 54.61) (xy 30.48 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87cb0a77-492c-43ca-8718-e9b6a9531f8e")
-	)
-	(wire
-		(pts
-			(xy 22.86 29.21) (xy 39.37 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87fe5681-c72b-4911-b41a-e1f611422f2c")
-	)
-	(wire
-		(pts
 			(xy 31.75 110.49) (xy 31.75 111.76)
 		)
 		(stroke
@@ -3250,16 +3224,6 @@
 			(type default)
 		)
 		(uuid "8ce5150c-5d06-4b0d-9766-c62c9dcefe43")
-	)
-	(wire
-		(pts
-			(xy 73.66 41.91) (xy 105.41 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "902c92d5-1eb6-40a4-b3c4-e7fce434df90")
 	)
 	(wire
 		(pts
@@ -3303,6 +3267,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 29.21) (xy 36.83 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a21a1ab0-1658-42ef-93b9-7f46cdb7163c")
+	)
+	(wire
+		(pts
 			(xy 73.66 54.61) (xy 73.66 53.34)
 		)
 		(stroke
@@ -3313,13 +3287,13 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 35.56) (xy 66.04 35.56)
+			(xy 73.66 29.21) (xy 96.52 29.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a9ea189c-927b-4306-b3ef-4c8eadddca19")
+		(uuid "a5c5f320-acad-42c4-b970-24691969e2ec")
 	)
 	(wire
 		(pts
@@ -3363,6 +3337,26 @@
 	)
 	(wire
 		(pts
+			(xy 22.86 29.21) (xy 29.21 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4e82fb0-1cf8-4038-ba84-73574438e1a4")
+	)
+	(wire
+		(pts
+			(xy 31.75 29.21) (xy 36.83 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c831ffbc-4328-4965-94fa-9d2b1223bf9e")
+	)
+	(wire
+		(pts
 			(xy 29.21 77.47) (xy 20.32 77.47)
 		)
 		(stroke
@@ -3370,16 +3364,6 @@
 			(type default)
 		)
 		(uuid "cbf4dc2d-7e69-469e-9194-b3ca4a0c1868")
-	)
-	(wire
-		(pts
-			(xy 73.66 40.64) (xy 73.66 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cee4c590-5083-4c88-b3c1-1139bfc32b4e")
 	)
 	(wire
 		(pts
@@ -3393,23 +3377,33 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 41.91) (xy 73.66 43.18)
+			(xy 36.83 54.61) (xy 39.37 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d1fc32d4-3a02-4a1c-9910-73715cbd1fda")
+		(uuid "d6310344-1321-4c38-999e-1542b9048c46")
 	)
 	(wire
 		(pts
-			(xy 30.48 54.61) (xy 39.37 54.61)
+			(xy 22.86 54.61) (xy 36.83 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d6c6feec-abec-4aae-8012-63df2888028c")
+	)
+	(wire
+		(pts
+			(xy 36.83 29.21) (xy 39.37 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7997896-1c94-4c4a-a04f-5b54c9317e92")
 	)
 	(wire
 		(pts
@@ -3440,16 +3434,6 @@
 			(type default)
 		)
 		(uuid "e32f3e58-ad3f-4877-ba3e-f98c24b16568")
-	)
-	(wire
-		(pts
-			(xy 48.26 54.61) (xy 48.26 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e38e9b36-e330-45a4-bc19-a695934c4ac6")
 	)
 	(wire
 		(pts
@@ -3552,7 +3536,7 @@
 		(uuid "234e7c4d-0870-4b21-8758-9379b0ad3ac3")
 	)
 	(label "G_Q101"
-		(at 59.69 48.26 0)
+		(at 86.36 46.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3642,7 +3626,7 @@
 		(uuid "d572c515-ce88-415a-9b79-76286146c2d2")
 	)
 	(label "G_Q102"
-		(at 59.69 35.56 0)
+		(at 93.98 41.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3702,7 +3686,7 @@
 		(uuid "f27ee8dd-fb13-4401-8a15-c2b700a188ad")
 	)
 	(label "VoutDCDC"
-		(at 128.27 41.91 0)
+		(at 128.27 29.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3710,87 +3694,6 @@
 			(justify left bottom)
 		)
 		(uuid "f72dd0e4-e9cc-47fb-be24-fe4844573c83")
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 105.41 36.83 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "06406bb8-f8b8-404d-80f6-89d7474c48fd")
-		(property "Reference" "J2"
-			(at 105.664 32.766 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "XT60 or Terminal"
-			(at 108.204 18.288 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 105.41 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 105.41 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 105.41 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "23834ca4-fe3e-4c69-b056-a7b2e95b2009")
-		)
-		(pin "1"
-			(uuid "77ab5807-f3db-4ddf-b594-3afc5e36bddb")
-		)
-		(instances
-			(project "WET PCB v1"
-				(path "/04a960d1-1986-44f4-b45a-0c8f208ad357"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -4370,88 +4273,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 30.48 41.91 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "34956896-62d3-4459-a31d-e7c96af981c4")
-		(property "Reference" "C1"
-			(at 31.496 44.704 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C_Polarized"
-			(at 34.29 42.2909 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 31.4452 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 30.48 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 30.48 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8f0519fb-f00a-47e3-9b09-c917eef0d38f")
-		)
-		(pin "2"
-			(uuid "4875e65b-a72e-4d21-bdec-be15f25d2c3e")
-		)
-		(instances
-			(project "WET PCB v1"
-				(path "/04a960d1-1986-44f4-b45a-0c8f208ad357"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 167.64 25.4 0)
 		(unit 1)
@@ -4997,90 +4818,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 48.26 41.91 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "98848172-2100-4e3c-81f1-d23f9a824e5f")
-		(property "Reference" "C2"
-			(at 48.768 44.704 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C_Polarized"
-			(at 52.07 42.2909 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 49.2252 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 48.26 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 48.26 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8362c684-3a14-4fe2-9ee8-c711f6f3b43e")
-		)
-		(pin "2"
-			(uuid "e2d1b9b5-5485-494c-83fa-9333204b0cdf")
-		)
-		(instances
-			(project "WET PCB v1"
-				(path "/04a960d1-1986-44f4-b45a-0c8f208ad357"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Transistor_FET_Other:Q_NMOS_Depletion_GDS")
-		(at 71.12 48.26 0)
+		(at 76.2 46.99 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5088,10 +4827,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9a1bc9f2-b510-4da9-9116-a26fd847012d")
 		(property "Reference" "Q101"
-			(at 77.47 46.9899 0)
+			(at 69.85 45.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5102,7 +4840,7 @@
 			)
 		)
 		(property "Value" "Q_NMOS_Depletion_GDS"
-			(at 77.47 49.5299 0)
+			(at 72.898 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5113,7 +4851,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 71.12 48.26 0)
+			(at 76.2 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5124,7 +4862,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 48.26 0)
+			(at 76.2 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5135,7 +4873,7 @@
 			)
 		)
 		(property "Description" "Depletion-mode N-channel MOSFET gate/drain/source"
-			(at 71.12 48.26 0)
+			(at 76.2 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5573,7 +5311,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 124.46 48.26 0)
+		(at 124.46 41.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5584,7 +5322,7 @@
 		(fields_autoplaced yes)
 		(uuid "bc413c89-e8c6-4154-8414-254d2c6fa92f")
 		(property "Reference" "C3"
-			(at 128.27 46.1009 0)
+			(at 128.27 39.7509 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5595,7 +5333,7 @@
 			)
 		)
 		(property "Value" "C_Polarized"
-			(at 128.27 48.6409 0)
+			(at 128.27 42.2909 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5606,7 +5344,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 125.4252 52.07 0)
+			(at 125.4252 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5617,7 +5355,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 48.26 0)
+			(at 124.46 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5628,7 +5366,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 124.46 48.26 0)
+			(at 124.46 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5737,7 +5475,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET_Other:Q_NMOS_Depletion_GDS")
-		(at 71.12 35.56 0)
+		(at 101.6 31.75 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5748,29 +5486,27 @@
 		(fields_autoplaced yes)
 		(uuid "d2d36730-1f1d-4db9-b08f-f6a64ee013f7")
 		(property "Reference" "Q102"
-			(at 77.47 34.2899 0)
+			(at 101.6 22.86 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "Q_NMOS_Depletion_GDS"
-			(at 77.47 36.8299 0)
+			(at 101.6 25.4 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 71.12 35.56 0)
+			(at 101.6 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5781,7 +5517,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 35.56 0)
+			(at 101.6 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5792,7 +5528,7 @@
 			)
 		)
 		(property "Description" "Depletion-mode N-channel MOSFET gate/drain/source"
-			(at 71.12 35.56 0)
+			(at 101.6 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6578,6 +6314,88 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 29.21 24.13 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fa63fb5b-e00d-46f4-9339-f97e3362b0d1")
+		(property "Reference" "J2"
+			(at 34.29 22.8599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "XT60"
+			(at 34.29 25.3999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 29.21 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e327a416-6510-4fc1-b808-2845e224a64b")
+		)
+		(pin "2"
+			(uuid "301521a2-055b-4e9b-b3fc-a491dc98582b")
+		)
+		(instances
+			(project "WET PCB v1"
+				(path "/04a960d1-1986-44f4-b45a-0c8f208ad357"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
 		(at 17.78 43.18 180)
 		(unit 1)
 		(body_style 1)
@@ -6651,6 +6469,88 @@
 			(project "WET PCB v1"
 				(path "/04a960d1-1986-44f4-b45a-0c8f208ad357"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 36.83 41.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "feef7548-fc63-4375-8654-182fe6619ea9")
+		(property "Reference" "C1"
+			(at 40.64 40.6399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 40.64 43.1799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 37.7952 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 36.83 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6cb158d8-f5b9-4105-8ee6-7f52d5f7008c")
+		)
+		(pin "1"
+			(uuid "924df7b9-118a-43fc-b9e2-a221d54c0d54")
+		)
+		(instances
+			(project "WET PCB v1"
+				(path "/04a960d1-1986-44f4-b45a-0c8f208ad357"
+					(reference "C1")
 					(unit 1)
 				)
 			)
